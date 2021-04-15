@@ -1,0 +1,44 @@
+/* =====Features Section Start ===== */
+.features-item{
+    text-align: center;
+}
+.features-item h3{
+    font-size: 30px;
+    line-height: 42px;
+}
+/* ===== Features Section End ===== */
+
+.index-columns{
+    color: #000;
+    background-color: #f8f5f2;
+    background-image: url(../img/pattern-light.jpg);
+    background-repeat: repeat;
+}
+.index-columns h2{
+    font-size: 30px;
+    line-height: 42px;
+}
+/* ===== News Section Start ===== */
+.news-list time{
+    text-transform: none;
+}
+/* ===== News Section End ===== */
+
+/* ===== Gallery Section Start ===== */
+.gallery-content{
+    background-color: #ccc;
+    border: 7px solid #fff;
+}
+/* ===== Glery Sectionn End ===== */
+
+/* ===== Appointmant Section Start ===== */
+.appointmant-item input{
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+.appointmant-item input:focus{
+    border-color: #663d15 ;
+    outline: none;
+}
+/* ===== Appointmant Section End ===== */
