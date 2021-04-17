@@ -20,6 +20,13 @@ body{
     padding: 0 10px;
 }
 /* ===== Nav Container Start ===== */
+.main-header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
 .main-navigation{
     display: flex;
     font-size: 16px;
