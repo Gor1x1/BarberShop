@@ -14,12 +14,41 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
 }
+.container{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 /* ===== Nav Container Start ===== */
 .main-navigation{
+    display: flex;
     font-size: 16px;
     line-height: 20px;
     color: #fff;
     background-color: #000;
+}
+.main-navigation-wrapper{
+    width: 100%;
+    background-color: #000;
+}
+.main-header-logo{
+    width: 111px;
+    height: 24px;
+    padding: 23px 20px;
+}
+.main-navigation-wrapper .container{
+    display: flex;
+    justify-content: space-between;
+}
+.site-navigation{
+    width: 620px;
+    margin: 0;
+    padding: 0;
+}
+.user-navigation{
+    width: 140px;
+    margin: 0;
+    padding: 0;
 }
 .site-navigation a,
 .user-navigation a{
@@ -32,7 +61,9 @@ body{
     background-color: #242424;
 }
 /* ===== Nav Container End ===== */
-
+.main-header{
+    margin-bottom: 75px;
+}
 .inner-page{
     color: #000;
     background-color: #f9f6f3;
@@ -42,6 +73,11 @@ body{
 } 
 
 /* ===== Bred Crumbs Start ===== */
+.breadcrumbs{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
 .breadcrumbs a{
     color: #000;
 }
@@ -53,8 +89,15 @@ body{
     color: #aba9a7;
 }
 /* ===== Bred Crumbs End ===== */
-
+.catalog-columns{
+    display: flex;
+    justify-content: space-between;
+}
 /* ===== Pagination List Start ===== */
+.pagination-list{
+    margin: 0;
+    padding: 0;
+}
 .pagination-item a{
     color: #fff;
     background-color: #000;
@@ -75,6 +118,7 @@ body{
     background-color: #fff;
 }
 /* ===== Pagination List End ===== */
+
 a{
     text-decoration: none;
 }
@@ -98,7 +142,7 @@ ul{
     background-color: #663d15;
 }
 
-/* .visually-hidden{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -107,16 +151,25 @@ ul{
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
-}  */
+}  
 
 /* ======= Footer Start ======= */
 .main-footer{
+    padding: 60px 0;
+    margin-top: 65px;
     color: #fff;
-
     background-color: #212121;
     background-image: url(../img/pattern-dark.jpg);
     background-position: 0 0;
     background-repeat: repeat;
+}
+.main-footer .container{
+    display: flex;
+}
+.footer-contacts{
+    width: 320px;
+    margin: 0;
+    margin-right: 80px; 
 }
 .footer-contacts a{
     color: #fff;
@@ -127,7 +180,7 @@ ul{
     text-decoration: none;
 }
 .footer-social{
-    text-align: center;
+    width: 145px;
 }
 .footer-social ul{
     list-style: none;
@@ -136,7 +189,9 @@ ul{
     color: #fff;
 }
 .footer-copyright{
-    text-align: center;
+    width: 150px;
+    margin: 0;
+    margin-left: auto;
 }
 .footer-copyright .button:hover,
 .footer-copyright .button:focus{
