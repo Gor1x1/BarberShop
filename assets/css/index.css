@@ -19,8 +19,25 @@
     text-align: center;
 }
 .features-item h3{
+    position: relative;
+    margin: 0;
+    margin-bottom: 60px;
     font-size: 30px;
     line-height: 42px;
+}
+.features-item h3::after{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    background-color: #fff;
+    transform: rotate(45deg);    
+}
+.features-item p{
+    margin: 0 10px;
 }
 /* ===== Features Section End ===== */
 
