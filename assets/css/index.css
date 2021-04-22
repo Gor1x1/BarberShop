@@ -48,18 +48,34 @@
     padding: 50px 80px;
     color: #000;
     background-color: #f8f5f2;
-    background-image: url(../img/pattern-light.jpg);
-    background-repeat: repeat;
+    background-image: 
+    url("../img/line.png"),
+    url("../img/pattern-light.jpg");
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
 }
 .index-columns h2{
+    margin: 0;
+    margin-bottom: 25px;
     font-size: 30px;
     line-height: 42px;
 }
 /* ===== News Section Start ===== */
 .news{
+    
     width: 380px;
 }
-
+.news-list{
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+.news-item{
+    margin-bottom: 25px;
+}
+.news-item p{
+    margin: 0;
+}
 .news-list time{
     text-transform: none;
 }
@@ -69,9 +85,32 @@
 .gallery{
     width: 300px;
 }
+.gallery-container{
+    position: relative;
+    height: 260px;
+}
 .gallery-content{
+    height: 164px;
+    margin: 0;
     background-color: #ccc;
     border: 7px solid #fff;
+}
+.gallery-content img{
+    width: 286px;
+    height: 164px;
+}
+.gallery-button{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 140px;
+    margin: 0;
+}
+.gallery-button-back{
+    left: 0;
+}
+.gallery-button-next{
+    right: 0;
 }
 /* ===== Glery Sectionn End ===== */
 
@@ -79,13 +118,39 @@
 .contacts{
     width: 380px;
 }
+.contacts p{
+    margin: 0;
+    margin-bottom: 25px;
+}
 /* ===== Contacts Section End ===== */
 
 /* ===== Appointmant Section Start ===== */
 .appointmant{
     width: 300px;
 }
+.appointmant-info{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.appointmant-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.appointmant-item{
+    width: 140px; 
+    margin: 0;
+    margin-bottom: 10px;
+}
+.appointmant-item label{
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 15px;
+}
 .appointmant-item input{
+    box-sizing: border-box;
+    width: 140px;
+    padding: 8px 15px 7px;
     font: inherit;
     background-color: transparent;
     border: 2px solid #000;
@@ -93,5 +158,10 @@
 .appointmant-item input:focus{
     border-color: #663d15 ;
     outline: none;
+}
+.appointmant .button{
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
 }
 /* ===== Appointmant Section End ===== */

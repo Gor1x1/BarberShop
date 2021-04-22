@@ -182,13 +182,14 @@ ul{
     list-style: none;
 }
 .button{
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 30px;
     font: inherit;
-
     text-align: center;
     color: #fff;
     vertical-align: middle;
     text-transform: uppercase;
-
     background-color: #000;
     border: none;
 }
@@ -197,7 +198,12 @@ ul{
 .button:active{
     background-color: #663d15;
 }
- 
+.button.disabled,
+.button:disabled{
+    cursor: default;
+    opacity: 0.5;
+    background-color: #000;
+}
 /* ======= Footer Start ======= */
 .main-footer{
     padding: 60px 0;

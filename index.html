@@ -79,17 +79,11 @@
           <h2>Новости</h2>
           <ul class="news-list">
             <li class="news-item">
-              <p>
-                Нам Наконец завезли Ягермайстер! Тепер вы можете пропустить
-                стаканчик во время стрижки
-              </p>
+              <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
               <time datetime="2016-01-18">18 января</time>
             </li>
             <li class="news-item">
-              <p>
-                В нашей команде поплнеине, Борис «Бритва» Стригунец, обладатель
-                множества титулов и наград поплнил наши стройные ряды
-              </p>
+              <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
               <time datetime="2021-04-3">03 апреля</time>
             </li>
           </ul>
@@ -100,19 +94,21 @@
         <!-- === Gallery Section Start -->
         <section class="gallery">
           <h2>Фотогалерия</h2>
-          <figure class="gallery-content">
-            <a href="#">
-              <img
-                src="./assets/img/studio.jpg"
-                width="286"
-                height="164"
-                alt="Интерьер"
-              />
-            </a>
-          </figure>
-          <button class="button gallery-button gallery-button-back">Назад</button>
-          <button class="button gallery-button gallery-button-next">Вперед</button>
-        </section>
+          <div class="gallery-container">
+            <figure class="gallery-content">
+              <a href="#">
+                <img
+                  src="./assets/img/studio.jpg"
+                  width="286"
+                  height="164"
+                  alt="Интерьер"
+                />
+              </a>
+            </figure>
+            <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
+            <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+          </div>
+          </section>
         <!-- === Gallery Section End === -->
       </div>
       <!-- ===== News & Gallery Sections End ===== -->
@@ -147,26 +143,26 @@
           <form class="appointmant-form" action="https://echo.htmlacademy.ru" method="POST">
             <p class="appointmant-item">
               <label for="appointmant-date">Дата</label>
-              <input id="appointmant-date" type="text" name="date" value="" placeholder="13.04.2021">
+              <input id="appointmant-date" type="text" name="date" value="" placeholder="13.04.2021" required>
             </p>
             <p class="appointmant-item">
               <label for="appointmant-time">Время</label>
-              <input id="appointmant-time" type="text" name="time" value="" placeholder="19:33">
+              <input id="appointmant-time" type="text" name="time" value="" placeholder="19:33" required>
             </p>
             <p class="appointmant-item">
               <label for="appointmant-name">Ваше имя</label>
-              <input id="appointmant-name" type="text" name="name" value="" placeholder="Борода">
+              <input id="appointmant-name" type="text" name="name" value="" placeholder="Борода" required>
             </p>
             <p class="appointmant-item">
               <label for="appointmant-phone">Телефон </label>
-              <input id="appointmant-phone" type="tel" name="phone" value="" placeholder="+374 41 00 00 00">
+              <input id="appointmant-phone" type="tel" name="phone" value="" placeholder="+374 41 00 00 00" required>
             </p>
             <button class="button" type="submit">Отправить</button>
           </form>
         </section>
         <!-- === Appointmant Serction End === -->
       </div>
-      <!-- ===== Contact & Appointmant Sections Start ===== -->
+      <!-- ===== Contact & Appointmant Sections End ===== -->
     </main>
     <!-- ===== Main End ===== -->
 
