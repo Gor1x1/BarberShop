@@ -1,14 +1,13 @@
 body{
+    min-width: 960px;
     margin: 0;
     padding: 0;
-    
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
-
     background-color: #000;
     background-image: url(../img/bg.jpg);
     background-position: top center;
@@ -17,7 +16,7 @@ body{
  img {
     max-width: 100%;
     height: auto;
-  } 
+} 
 .container{
     width: 940px;
     margin: 0 auto;
@@ -232,17 +231,49 @@ ul{
 }
 .footer-social{
     width: 145px;
+    text-align: center;
 }
 .footer-social ul{
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 141px;
+    margin: 0 auto;
+    padding: 0;
+}
+.footer-social b{
+    display: block;
+    margin-bottom: 15px;
 }
 .social-button{
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    background-color: #000;
+}
+.social-button:hover,
+.social-button:focus{
+    background-color: #fff;
+}
+.social-button:hover path,
+.social-button:focus path{
+    fill: #000;
 }
 .footer-copyright{
     width: 150px;
     margin: 0;
     margin-left: auto;
+    text-align: center;
+}
+.footer-copyright .button{
+    display: block;
+    margin-right: 0;
+}
+.footer-copyright b{
+    display: block;
+    margin-bottom: 15px;
 }
 .footer-copyright .button:hover,
 .footer-copyright .button:focus{
