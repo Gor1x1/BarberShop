@@ -129,9 +129,29 @@ input[type="radio"].visually-hidden{
 
 /* ===== Bred Crumbs Start ===== */
 .breadcrumbs{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     margin-bottom: 50px;
+}
+.breadcrumbs li{
+    position: relative;
+    margin-right: 42px;
+}
+.breadcrumbs li::after{
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: -25px;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    transform: rotate(45deg);
+}
+.breadcrumbs li:last-child{
+    margin-right: 0;
 }
 .breadcrumbs a{
     color: #000;
@@ -142,6 +162,9 @@ input[type="radio"].visually-hidden{
 }
 .breadcrumbs-current{
     color: #aba9a7;
+}
+.breadcrumbs-current::after{
+    display: none;
 }
 /* ===== Bred Crumbs End ===== */
 .catalog-columns{
