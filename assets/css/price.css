@@ -27,8 +27,12 @@
     border: 2px solid #000;
 }
 .inner-content .big-heading{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 55px;
     margin-bottom: 65px;
     font-size: 48px;
@@ -38,8 +42,11 @@
 .big-heading::before,
 .big-heading::after{
     content: "";
-    flex-grow: 1;
-    flex-shrink: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
     width: 50px;
     height: 2px;
     background: #000;
@@ -67,7 +74,9 @@
     width: 8px;
     height: 8px;
     background-color: #000;
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 .costum-table-1{
     width: 100%;
@@ -79,9 +88,14 @@
     text-align: center;
 }
 .inner-columns{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 60px 0;
 
 }
