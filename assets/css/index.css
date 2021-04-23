@@ -2,12 +2,12 @@
     width: 368px;
     height: 153px;
     margin: 0 auto 75px;
-  }
-  /* =====Features Section Start ===== */
-  .features {
+}
+/* =====Features Section Start ===== */
+.features {
     margin-bottom: 80px;
-  }
-  .features-list {
+}
+.features-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -16,19 +16,19 @@
             justify-content: space-between;
     margin: 0;
     padding: 0;
-  }
-  .features-item {
+}
+.features-item {
     width: 300px;
     text-align: center;
-  }
-  .features-item h3 {
+}
+.features-item h3 {
     position: relative;
     margin: 0;
     margin-bottom: 60px;
     font-size: 30px;
     line-height: 42px;
-  }
-  .features-item h3::after {
+}
+.features-item h3::after {
     content: "";
     position: absolute;
     bottom: -30px;
@@ -40,13 +40,13 @@
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
-  }
-  .features-item p {
+}
+.features-item p {
     margin: 0 10px;
-  }
-  /* ===== Features Section End ===== */
-  
-  .index-columns {
+}
+/* ===== Features Section End ===== */
+
+.index-columns {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -60,86 +60,86 @@
     background-image: url("../img/line.png"), url("../img/pattern-light.jpg");
     background-position: center, 0 0;
     background-repeat: no-repeat, repeat;
-  }
-  .index-columns h2 {
+}
+.index-columns h2 {
     margin: 0;
     margin-bottom: 25px;
     font-size: 30px;
     line-height: 42px;
-  }
-  /* ===== News Section Start ===== */
-  .news {
+}
+/* ===== News Section Start ===== */
+.news {
     width: 380px;
-  }
-  .news-list {
+}
+.news-list {
     margin: 0;
     margin-bottom: 25px;
     padding: 0;
-  }
-  .news-item {
+}
+.news-item {
     margin-bottom: 25px;
-  }
-  .news-item p {
+}
+.news-item p {
     margin: 0;
-  }
-  .news-list time {
+}
+.news-list time {
     text-transform: none;
-  }
-  /* ===== News Section End ===== */
-  
-  /* ===== Gallery Section Start ===== */
-  .gallery {
+}
+/* ===== News Section End ===== */
+
+/* ===== Gallery Section Start ===== */
+.gallery {
     width: 300px;
-  }
-  .gallery-container {
+}
+.gallery-container {
     position: relative;
     height: 260px;
-  }
-  .gallery-content {
+}
+.gallery-content {
     height: 164px;
     margin: 0;
     background-color: #ccc;
     border: 7px solid #fff;
-  }
-  .gallery-content img {
+}
+.gallery-content img {
     width: 286px;
     height: 164px;
-  }
-  .gallery-button {
+}
+.gallery-button {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
     bottom: 0;
     width: 140px;
     margin: 0;
-  }
-  .gallery-button-back {
+}
+.gallery-button-back {
     left: 0;
-  }
-  .gallery-button-next {
+}
+.gallery-button-next {
     right: 0;
-  }
-  /* ===== Gallery Section End ===== */
-  
-  /* ===== Contact Section Start ===== */
-  .contacts {
+}
+/* ===== Gallery Section End ===== */
+
+/* ===== Contact Section Start ===== */
+.contacts {
     width: 380px;
-  }
-  .contacts p {
+}
+.contacts p {
     margin: 0;
     margin-bottom: 25px;
-  }
-  /* ===== Contacts Section End ===== */
-  
-  /* ===== Appointment Section Start ===== */
-  .appointment {
+}
+/* ===== Contacts Section End ===== */
+
+/* ===== Appointment Section Start ===== */
+.appointment {
     width: 300px;
-  }
-  .appointment-info {
+}
+.appointment-info {
     margin: 0;
     margin-bottom: 15px;
-  }
-  .appointment-form {
+}
+.appointment-form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -148,18 +148,18 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-  }
-  .appointment-item {
+}
+.appointment-item {
     width: 140px;
     margin: 0;
     margin-bottom: 10px;
-  }
-  .appointment-item label {
+}
+.appointment-item label {
     display: block;
     margin-bottom: 9px;
     margin-left: 15px;
-  }
-  .appointment-item input {
+}
+.appointment-item input {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 140px;
@@ -167,14 +167,28 @@
     font: inherit;
     background-color: transparent;
     border: 2px solid #000;
-  }
-  .appointment-item input:focus {
+}
+.appointment-item input:focus {
     border-color: #663d15;
     outline: none;
-  }
-  .appointment .button {
+}
+.appointment .button {
     width: 100%;
     margin-top: 10px;
     margin-right: 0;
-  }
-  /* ===== Appointment Section End ===== */
+}
+/* ===== Appointment Section End ===== */
+
+/* ===== Modal Map Start ===== */
+.modal-map{
+    top: 50%;
+    left: 50%;
+    width: 766px;
+    height: 561px;
+    transform: translate(-50%, -50%);
+    border: 7px solid white;
+}
+.modal-map p{
+    margin: 0;
+}
+/* ===== Modal Map End ===== */
