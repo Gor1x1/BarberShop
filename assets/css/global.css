@@ -122,6 +122,8 @@ input[type="radio"].visually-hidden{
 
 .site-navigation a,
 .user-navigation a{
+    display: block;
+    padding: 25px 20px;
     color: #fff;
 }
 .site-navigation a:hover,
@@ -129,6 +131,21 @@ input[type="radio"].visually-hidden{
 .user-navigation a:hover,
 .user-navigation a:focus{
     background-color: #242424;
+}
+.site-navigation-current{
+    position: relative;
+}
+.site-navigation-current a:not([href]){
+    background-color: #000;
+}
+.site-navigation-current::after{
+    content: "";
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    left: 20px;
+    height: 5px;
+    background-color: #fff;
 }
 /* ===== Nav Container End ===== */
 .main-header{
