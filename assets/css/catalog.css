@@ -63,6 +63,9 @@
     background-repeat: no-repeat;
     background-position: 0 0;
 }
+.filter-input-checkbox:focus + label::before{
+    outline: rgb(59, 153, 252) auto 5px;
+}
 .filter-input-radio + label::before{
     content: "";
     position: absolute;
