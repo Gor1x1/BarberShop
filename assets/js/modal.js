@@ -44,6 +44,9 @@ var link = document.querySelector(".login-link");
             if(popup.classList.contains("modal-show")){
                 popup.classList.remove("modal-show");
             }
+            if(mapPopup.classList.contains("modal-show")){
+                mapPopup.classList.remove("modal-show");
+            }
         }
     });
 
