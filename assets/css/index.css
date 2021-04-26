@@ -181,13 +181,11 @@
 
 /* ===== Modal Map Start ===== */
 .modal-map{
-    top: 50%;
+    top: 70px;
     left: 50%;
+    margin-left: -30%;
     width: 766px;
     height: 561px;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
     border: 7px solid white;
 }
 .modal-map p{

@@ -41,14 +41,14 @@ input[type="radio"].visually-hidden{
     overflow: hidden;
 } 
 /* ===== Nav Container Start ===== */
-/* .main-header{
+.main-header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
-} */
+}
 .main-navigation{
     display: -webkit-box;
     display: -ms-flexbox;
