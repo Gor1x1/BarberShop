@@ -24,11 +24,14 @@ var link = document.querySelector(".login-link");
     close.addEventListener("click", function (evt){
         evt.preventDefault();
         popup.classList.remove("modal-show");
+        popup.classList.remove("modal-error")
     });
     form.addEventListener("submit", function (evt){
         if (!login.value || !password.value) {
             evt.preventDefault();
-            console.log("You need to enter a username or password");
+            popup.classList.remove("modal-error");
+            popup.offsetWidth = popup.offsetWidth;
+            popup.classList.add("modal-error");
         } else {
             if (isStorageSupport) {
                 localStorage.setItem("login", login.value);
