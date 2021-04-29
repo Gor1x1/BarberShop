@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
-
-html,
 body{
-  margin: 0px;
-  overflow: hidden;
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #000;
+  background-image: url(../img/bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
 }
-
 div{
   position: absolute;
   top: 0%;
@@ -13,11 +20,6 @@ div{
   height: 100%;
   width: 100%;
   margin: 0px;
-  background-color: #000;
-  background-image: url(../img/bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .wrap{
