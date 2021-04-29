@@ -95,15 +95,26 @@
     position: relative;
     height: 260px;
 }
-.gallery-content {
+.slide_viewer {
     height: 164px;
     margin: 0;
     background-color: #ccc;
     border: 7px solid #fff;
+    overflow: hidden;
+    position: relative;
 }
-.gallery-content img {
+.slide img {
     width: 286px;
     height: 164px;
+}
+.slide_group {
+    position: relative;
+}
+.slide {
+    position: absolute;
+}
+.slide:first-child {
+    display: block;
 }
 .gallery-button {
     -webkit-box-sizing: border-box;

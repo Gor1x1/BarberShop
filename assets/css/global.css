@@ -38,6 +38,10 @@ input[type="radio"].visually-hidden{
     clip: rect(0 0 0 0);
     overflow: hidden;
 } 
+.box-shadow:hover{
+    box-shadow: 0 0 2px #000;
+    transition: 0.2s;
+}
 /* ===== Nav Container Start ===== */
 .main-header{
     position: -webkit-sticky;
@@ -130,6 +134,7 @@ input[type="radio"].visually-hidden{
 .user-navigation a:hover,
 .user-navigation a:focus{
     background-color: #242424;
+    transition: 0.2s;
 }
 .site-navigation-current{
     position: relative;
@@ -271,9 +276,16 @@ ul{
     border: none;
 }
 .button:hover,
-.button:focus,
-.button:active{
+.button:focus{
     background-color: #663d15;
+    box-shadow: 0 0 2px #000;
+    transition: 0.2s;
+}
+.button:active{
+    background-color: #000;
+}
+.button:active{
+    transform: translateY(1px);
 }
 .button.disabled,
 .button:disabled{

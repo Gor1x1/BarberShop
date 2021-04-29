@@ -96,17 +96,23 @@
         <section class="gallery">
           <h2>Фотогалерия</h2>
           <div class="gallery-container">
-            <figure class="gallery-content">
-              <a href="#">
-                <img
-                  src="./assets/img/studio.jpg"
-                  width="286"
-                  height="164"
-                  alt="Интерьер"
-                />
-              </a>
-            </figure>
-            <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
+            <div class="slide_viewer">
+              <div class="slide_group">
+                <div class="slide">
+                  <img src="./assets/img/studio.jpg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./assets/img/studio.jpg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./assets/img/studio.jpg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./assets/img/studio.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <button class="button gallery-button gallery-button-back" type="button">Назад</button>
             <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
           </div>
           </section>
@@ -241,5 +247,7 @@
     <!-- ======= Modal Map End ======= -->
     <script src="./assets/js/modal.js"></script>
     <script src="./assets/js/map.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./assets/js/index-slider.js"></script>
   </body>
 </html>
