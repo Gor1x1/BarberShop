@@ -40,7 +40,7 @@ input[type="radio"].visually-hidden{
 } 
 .box-shadow:hover{
     box-shadow: 0 0 2px #000;
-    transition: 0.2s;
+    transition: 0.5s linear;
 }
 /* ===== Nav Container Start ===== */
 .main-header{
@@ -121,6 +121,7 @@ input[type="radio"].visually-hidden{
 .login-link:focus::before,
 .login-link:active::before{
     opacity: 1;
+    transition: 0.1s linear;
 }
 
 .site-navigation a,
@@ -134,7 +135,7 @@ input[type="radio"].visually-hidden{
 .user-navigation a:hover,
 .user-navigation a:focus{
     background-color: #242424;
-    transition: 0.2s;
+    transition: 0.1s linear;
 }
 .site-navigation-current{
     position: relative;
@@ -244,6 +245,7 @@ input[type="radio"].visually-hidden{
 .pagination-item a:focus,
 .pagination-item a:active{
     background-color: #663d15;
+    transition: 0.1s linear;
 }
 .pagination-item-current a{
     color: #000;
@@ -279,13 +281,16 @@ ul{
 .button:focus{
     background-color: #663d15;
     box-shadow: 0 0 2px #000;
-    transition: 0.2s;
+    transition: 0.1s linear;
+
 }
 .button:active{
     background-color: #000;
 }
 .button:active{
     transform: translateY(1px);
+    transition: 0.1s linear;
+
 }
 .button.disabled,
 .button:disabled{
@@ -359,10 +364,12 @@ ul{
 .social-button:hover,
 .social-button:focus{
     background-color: #fff;
+    transition: 0.2s linear;
 }
 .social-button:hover path,
 .social-button:focus path{
     fill: #000;
+    transition: 0.2s linear;
 }
 .footer-copyright{
     width: 150px;
@@ -382,6 +389,7 @@ ul{
 .footer-copyright .button:focus{
     color: #000;
     background-color: #fff;
+    transition: 0.2s linear;
 }
 
 /* ======= Footer End ====== */
@@ -480,10 +488,12 @@ ul{
     text-transform: uppercase;
     background-color: #f9f6f3;
     border: 2px solid #000;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.8);
 }
 .login-form input:focus{
     border-color: #663d15;
     outline: none;
+    transition: 0.1s linear;
 }
 .login-form .login-help{
     display: -webkit-box;
@@ -519,6 +529,7 @@ button,
 .login-checkbox:hover,
 .login-checkbox:focus{
     color: #663d15;
+    transition: 0.1s linear;
 }
 .login-checkbox input[type="checkbox"] + .checkbox-indicator{
     position: absolute;
@@ -530,6 +541,7 @@ button,
 }
 .login-checkbox input[type="checkbox"]:focus + .checkbox-indicator{
     border-color: #663d15;
+    transition: 0.1s linear;
 }
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after{

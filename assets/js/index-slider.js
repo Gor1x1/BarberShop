@@ -61,4 +61,5 @@ $('.gallery-container').each(function() {
         move(3);
         }
     });
+    advance();
 });

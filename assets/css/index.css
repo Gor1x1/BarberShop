@@ -182,6 +182,7 @@
 .appointment-item input:focus {
     border-color: #663d15;
     outline: none;
+    transition: 0.1s linear;
 }
 .appointment .button {
     width: 100%;
