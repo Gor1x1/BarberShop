@@ -195,10 +195,12 @@
 
 /* ===== Modal Map Start ===== */
 .modal-map{
-    top: 70px;
-    margin: 10px 20%;
+    top: 50%;
+    left: 50%;
     width: 766px;
-    height: 561px;
+    height: 560px;
+    margin-top: -260px;
+    margin-left: -390px;
     border: 7px solid white;
 }
 .modal-map p{
